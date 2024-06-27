@@ -1,0 +1,18 @@
+.item {
+  height: 390px;
+  width: 390px;
+  border: 1px solid #ccc; /* Добавляет легкую границу вокруг карточки */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Добавляет тень для 3D эффекта */
+  border-radius: 4px; /* Скругляет углы карточки */
+}
+.item:hover {
+  box-shadow: 0 0 10px 10px  rgb(0, 100, 0);
+}
+.list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
