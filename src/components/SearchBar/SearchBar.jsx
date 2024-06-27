@@ -11,6 +11,7 @@ const SearchBar = ({ onSubmit }) => {
                 icon: <AiFillWarning color="red" size={28} />,
             });
         }
+
         onSubmit(values.query);
         actions.resetForm();
     };
