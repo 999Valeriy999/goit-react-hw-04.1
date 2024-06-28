@@ -10,6 +10,7 @@ const SearchBar = ({ onSubmit }) => {
                 duration: 3000,
                 icon: <AiFillWarning color="red" size={28} />,
             });
+            return;
         }
 
         onSubmit(values.query);
