@@ -10,7 +10,7 @@ import './App.css'
 
 
 function App() {
-  const App = () => {
+  
     const [images, setImages] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(false);
@@ -80,6 +80,6 @@ function App() {
       </>
     );
   }
-}
+
 
 export default App;
